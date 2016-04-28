@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BeaconsProject</string>
+    <string name="service_name">Beacons background</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="action_filter">Filter</string>
+    
+    <string name="tab_discover_name">Discover</string>
+    <string name="tab_nearby_name">Nearby</string>
+    <string name="tab_favorites_name">Favorites</string>
+    
+    <string name="view_bluetooth_description">Bluetooth is not enabled, do you want to enable it?</string>
+    <string name="view_bluetooth_button">Enable bluetooth</string>
+    
+    <string name="view_internet_description">There is not internet connection, do you want to check it again?</string>
+    <string name="view_internet_button">Check it</string>
+    
+    <string name="dialog_defavorite_message">If you continue you will lose this flyer from the favorites view.</string>
+    <string name="dialog_defavorite_title">Are you sure?</string>
+    
+    <string name="dialog_filter_title">Filter categories</string>
+    
+    <string name="dialog_settings_title">Settings</string>
+    <string name="dialog_settings_notifications">Show notifications</string>
+    
+    <string name="dialog_share_title">Share via&#8230;</string>
+    <string name="dialog_share_subject">#BeaconsProject</string>
+    <string name="dialog_share_shareContent_1">Reading</string>
+    <string name="dialog_share_shareContent_2">using BeaconsProject application.</string>
+    
+    <!-- <string name=""></string> -->
+    
+    <!-- App options and facebook id -->
+    
+    <string name="base_domain">http://fernandezmir.com/beacons</string>    
+    <string name="app_id">598008076982635</string>
+
+</resources>

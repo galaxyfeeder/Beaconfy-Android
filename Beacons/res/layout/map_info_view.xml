@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+ 
+    <ImageView 
+        android:id="@+id/categoryIcon"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentLeft="true"
+    	android:layout_alignParentTop="true"
+    	android:layout_alignBottom="@+id/text"
+    	android:src="@drawable/ic_launcher"/>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:id="@+id/text"
+    	android:orientation="horizontal"
+    	android:gravity="center_vertical"
+    	android:layout_toRightOf="@+id/categoryIcon">
+    	        
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:paddingLeft="10dp"
+    	android:paddingRight="10dp">
+    	
+        <TextView
+        	android:id="@+id/title"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Title"
+        	android:textStyle="bold" />
+ 
+    	<TextView
+        	android:id="@+id/snippet"
+       	 	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Snippet" />
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/count"
+       	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#111177"
+        android:text="0"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="#FFF"
+    	android:singleLine="true" />
+        
+    </LinearLayout>
+    
+</RelativeLayout>
